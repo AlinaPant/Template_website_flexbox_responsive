@@ -1,0 +1,68 @@
+footer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	width: 100%;
+	min-height:  20vh;
+	background: $bg_footer;
+	
+	.copyright {
+		text-align: center;
+		color: $bg_body;
+		font-size: 11px;
+		background: darken($bg_footer, 5%);
+		padding: 10px;
+	}
+}
+
+.tabs_controls {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	height: 10vh;
+	padding: 30px 0;
+	
+	&-item {
+		display: inline-block;
+		text-decoration: none;
+
+		&:hover,
+		&.active a {
+			text-decoration: line-through;
+			color: $hover_nav;
+		}
+	}
+	
+	a {
+		display: inline-block;
+		color: $color_nav;
+		text-decoration: none;
+		-webkit-transition: all .4s ease-in;
+		transition: all .4s ease-in;
+		
+		&:hover {
+			text-decoration: line-through;
+			color: $hover_nav;
+			-webkit-transition: all .6s ease-out;
+			transition: all .6s ease-out;
+		}
+	}
+}

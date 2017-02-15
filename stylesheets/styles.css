@@ -1,0 +1,317 @@
+/* line 5, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_wrap.scss */
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+/* line 18, ../sass/_wrap.scss */
+main .tabs_list h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+/* line 24, ../sass/_wrap.scss */
+main .tabs_list .about {
+  max-width: 50%;
+  text-align: justify;
+  line-height: 18px;
+  padding: 20px;
+  margin: auto;
+}
+/* line 33, ../sass/_wrap.scss */
+main .tabs_item {
+  display: none;
+  list-style: none outside none;
+}
+/* line 37, ../sass/_wrap.scss */
+main .tabs_item.active {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 46, ../sass/_wrap.scss */
+.tabs_item_third {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 80vh;
+  width: 100vw;
+}
+
+/* line 62, ../sass/_wrap.scss */
+.box_img {
+  width: 33.3333%;
+}
+/* line 65, ../sass/_wrap.scss */
+.box_img:nth-child(1) {
+  background-image: url(https://static.pexels.com/photos/26549/pexels-photo-26549.jpg);
+}
+/* line 69, ../sass/_wrap.scss */
+.box_img:nth-child(2) {
+  background-image: url(https://static.pexels.com/photos/25641/pexels-photo-25641.jpg);
+}
+/* line 73, ../sass/_wrap.scss */
+.box_img:nth-child(3) {
+  background-image: url(https://static.pexels.com/photos/26549/pexels-photo-26549.jpg);
+}
+/* line 77, ../sass/_wrap.scss */
+.box_img:nth-child(4) {
+  background: url(https://static.pexels.com/photos/25641/pexels-photo-25641.jpg);
+}
+/* line 81, ../sass/_wrap.scss */
+.box_img:nth-child(5) {
+  background-image: url(https://static.pexels.com/photos/26549/pexels-photo-26549.jpg);
+}
+/* line 85, ../sass/_wrap.scss */
+.box_img:nth-child(6) {
+  background-image: url(https://static.pexels.com/photos/25641/pexels-photo-25641.jpg);
+}
+/* line 89, ../sass/_wrap.scss */
+.box_img:nth-child(7) {
+  background-image: url(https://static.pexels.com/photos/26549/pexels-photo-26549.jpg);
+}
+/* line 93, ../sass/_wrap.scss */
+.box_img:nth-child(8) {
+  background-image: url(https://static.pexels.com/photos/25641/pexels-photo-25641.jpg);
+}
+/* line 97, ../sass/_wrap.scss */
+.box_img:nth-child(9) {
+  background-image: url(https://static.pexels.com/photos/26549/pexels-photo-26549.jpg);
+}
+/* line 101, ../sass/_wrap.scss */
+.box_img:nth-child(1), .box_img:nth-child(2), .box_img:nth-child(3), .box_img:nth-child(4), .box_img:nth-child(5), .box_img:nth-child(6), .box_img:nth-child(7), .box_img:nth-child(8), .box_img:nth-child(9) {
+  background-size: cover;
+}
+
+/* line 115, ../sass/_wrap.scss */
+.social a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #252525;
+  padding: 5px 8px;
+  margin: 5px auto;
+  text-decoration: none;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+/* line 135, ../sass/_wrap.scss */
+.social a:hover,
+.social a i:hover {
+  background: #252525;
+  color: #eee;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+/* line 143, ../sass/_wrap.scss */
+.social a i {
+  font-size: 40px;
+  margin: auto;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  min-height: 20vh;
+  background: #252525;
+}
+/* line 19, ../sass/_footer.scss */
+footer .copyright {
+  text-align: center;
+  color: #eee;
+  font-size: 11px;
+  background: #181818;
+  padding: 10px;
+}
+
+/* line 28, ../sass/_footer.scss */
+.tabs_controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  height: 10vh;
+  padding: 30px 0;
+}
+/* line 43, ../sass/_footer.scss */
+.tabs_controls-item {
+  display: inline-block;
+  text-decoration: none;
+}
+/* line 47, ../sass/_footer.scss */
+.tabs_controls-item:hover, .tabs_controls-item.active a {
+  text-decoration: line-through;
+  color: #993333;
+}
+/* line 54, ../sass/_footer.scss */
+.tabs_controls a {
+  display: inline-block;
+  color: #eee;
+  text-decoration: none;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+/* line 61, ../sass/_footer.scss */
+.tabs_controls a:hover {
+  text-decoration: line-through;
+  color: #993333;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+@media (max-width: 575px) {
+  /* line 2, ../sass/_adaptive.scss */
+  main .tabs_list .about {
+    max-width: 85%;
+  }
+}
+/* line 7, ../sass/styles.scss */
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  background: #eee;
+  color: #252525;
+  overflow: hidden;
+}
+
+/* line 32, ../sass/styles.scss */
+::-moz-selection {
+  background: #252525;
+  color: #eee;
+}
+
+/* line 37, ../sass/styles.scss */
+::selection {
+  background: #252525;
+  color: #eee;
+}
